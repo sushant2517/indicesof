@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Excite.Service\Excite.Utilities.csproj">
+    <ProjectReference Include="..\Excite.Utilities\Excite.Utilities.csproj">
       <Project>{2B59C1B1-D463-43FE-B3F3-6C37847C15AC}</Project>
       <Name>Excite.Utilities</Name>
     </ProjectReference>

@@ -80,7 +80,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Excite.Service\Excite.Utilities.csproj">
+    <ProjectReference Include="..\Excite.Utilities\Excite.Utilities.csproj">
       <Project>{2b59c1b1-d463-43fe-b3f3-6c37847c15ac}</Project>
       <Name>Excite.Utilities</Name>
     </ProjectReference>
