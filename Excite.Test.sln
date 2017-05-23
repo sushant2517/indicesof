@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excite.App", "Excite.App\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excite.Tests", "Excite.Tests\Excite.Tests.csproj", "{7331313E-E37C-45A6-B746-9B44B65C3EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excite.Service", "Excite.Service\Excite.Service.csproj", "{2B59C1B1-D463-43FE-B3F3-6C37847C15AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excite.Utilities", "Excite.Utilities\Excite.Utilities.csproj", "{2B59C1B1-D463-43FE-B3F3-6C37847C15AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

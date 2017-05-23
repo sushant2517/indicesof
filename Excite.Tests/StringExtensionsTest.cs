@@ -1,5 +1,5 @@
 ﻿using System;
-using Excite.Service.Extensions;
+using Excite.Utilities.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Excite.Tests

@@ -1,6 +1,6 @@
 ﻿using System;
 using CommandLine;
-using Excite.Service.Extensions;
+using Excite.Utilities.Extensions;
 
 namespace Excite.App
 {
