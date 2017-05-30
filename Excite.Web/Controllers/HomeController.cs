@@ -27,7 +27,10 @@ namespace Excite.Web.Controllers
             }
 
             var result = model.Text.IndicesOf(model.SubText);
+
             model.Result = string.Join(",", result);
+            if (String.IsNullOrEmpty(model.Result))
+                model.Result = "<no match>";
 
             return View(model);
         }
