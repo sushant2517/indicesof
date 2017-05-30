@@ -15,5 +15,7 @@ namespace Excite.Web.Models
         public string SubText { get; set; }
 
         public string Result { get; set; }
+
+        public string Error { get; set; }
     }
 }

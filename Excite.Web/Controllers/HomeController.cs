@@ -14,14 +14,17 @@ namespace Excite.Web.Controllers
         // GET: Index
         public ActionResult Index()
         {
-            return View();
+            return View(new IndexViewModel());
         }
 
         [HttpPost]
         public ActionResult Index(IndexViewModel model)
         {
-            if(!ModelState.IsValid)
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            if (!ModelState.IsValid)
+            {
+                model.Error = "Invalid Input!";
+                return View(model);
+            }
 
             var result = model.Text.IndicesOf(model.SubText);
             model.Result = string.Join(",", result);
